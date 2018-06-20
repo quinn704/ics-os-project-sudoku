@@ -1,0 +1,41 @@
+# Sudoku Game for ICS-OS
+
+“Sudoku is a logic-based, combinatorial number-placement puzzle. The objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contains all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution.” (Wikipedia, 2018)
+
+Completed games are always a type of Latin square with an additional constraint on the contents of individual regions. For example, the same single integer may not appear twice in the same row, column, or any of the nine 3×3 subregions of the 9x9 playing board.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. Once in ics-os:
+
+* Extract from within ics-os source dir.
+
+```
+   $tar xzvf sudoku.tar.gz
+   $cd contrib/sudoku
+   $make
+   $make install
+```
+* Perform the steps to install ics-os.
+
+```
+   $cd ../..
+   $sudo make install 
+```
+* Run sudoku.exe inside ics-os
+
+## Authors
+
+**Project By VirtualCode**
+
+* **Baticos, Andric Quinn Sargento** - *Logic* - [quinn704](https://github.com/quinn704)
+* **Agustin, Jerico Ricardo** - *User Interface* - [jragustin](https://github.com/jragusting)
+
+See also the list of [contributors](https://github.com/quinn704/ics-os-project/contributors) who participated in this project.
+
+## License
+
+This project is property under the Institute of Computer Science.
+All Rights Reserved (c) 2018
+
+## Acknowledgments
